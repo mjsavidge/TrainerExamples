@@ -7,7 +7,6 @@ public class Main {
         int[] arr = {1,0,5,6,3,2,3,7,9,8,4};
 
         BubbleSort bubbleSort = new BubbleSort();
-
         bubbleSort.bubbleSort(arr);
         for (int i = 0; i < arr.length; i++){
             System.out.println(i);
@@ -18,5 +17,10 @@ public class Main {
         for (int i = 0; i <= 25; i++){
             System.out.println(fibonacci.fibonacciNumbers(i));
         }
+        //**************************************
+        ReverseString rs = new ReverseString();
+        String x = "hello";
+        System.out.println(rs.reverseString(x));
+
     }
 }
