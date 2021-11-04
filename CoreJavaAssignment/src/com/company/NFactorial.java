@@ -3,6 +3,8 @@ package com.company;
 public class NFactorial {
 
     public int computeFactorial(int factorial){
-        return factorial;
+        if(factorial == 0)
+            return 1;
+        return factorial*computeFactorial(factorial-1);
     }
 }

@@ -21,6 +21,11 @@ public class Main {
         ReverseString rs = new ReverseString();
         String x = "hello";
         System.out.println(rs.reverseString(x));
+        //**************************************
+        int z = 4;
+        NFactorial nf = new NFactorial();
+        System.out.println(nf.computeFactorial(z));
+
 
     }
 }
