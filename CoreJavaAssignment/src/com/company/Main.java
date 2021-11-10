@@ -2,11 +2,12 @@ package com.company;
 
 import SecondPackage.Q11;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 	// bubble sort
         int[] arr = {1,0,5,6,3,2,3,7,9,8,4};
 
@@ -129,6 +130,16 @@ public class Main {
         interfaceMainClass.division(2,1);
         interfaceMainClass.subtraction(2,1);
         interfaceMainClass.division(4,2);
+        //*************************************
+        System.out.println();
+        SimpleInterest simpleInterest = new SimpleInterest();
+        simpleInterest.main();
+        //*************************************
+        EvvenAndOdd evvenAndOdd = new EvvenAndOdd();
+        evvenAndOdd.main();
+        //************************************
+        ReadingFromFile readingFromFile = new ReadingFromFile();
+        readingFromFile.main();
     }
 
 }
