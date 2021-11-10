@@ -2,6 +2,7 @@ package SecondPackage;
 
 public class Q11 {
     public void simpleOutPut(){
-        System.out.println("Hello World");
+        String hello = "Hello World";
+        System.out.println(hello);
     }
 }
